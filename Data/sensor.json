@@ -1,0 +1,10 @@
+{
+    "transformer_type": "Distribution Transformer",
+    "temperature": 65,
+    "current": 60,
+    "rated_current": 5,
+    "voltage": 230,
+    "frequency": 50,
+    "power_factor": 0.96,
+    "smoke": "Safe"
+}

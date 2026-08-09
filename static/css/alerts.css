@@ -1,0 +1,184 @@
+/* ==================================================
+   ALERT SUMMARY
+================================================== */
+
+.alert-summary{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    margin-bottom:30px;
+}
+
+.alert-card{
+    background:#ffffff;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.alert-card i{
+    width:45px;
+    height:45px;
+    margin-bottom:10px;
+}
+
+.alert-card h3{
+    color:#666;
+    margin-bottom:10px;
+    font-size:16px;
+}
+
+.alert-card h1{
+    font-size:34px;
+    font-weight:700;
+}
+
+/* ==================================================
+   CARD COLORS
+================================================== */
+
+.alert-card.total{
+    border-left:6px solid #2563EB;
+}
+
+.alert-card.critical{
+    border-left:6px solid #EF4444;
+}
+
+.alert-card.warning{
+    border-left:6px solid #F59E0B;
+}
+
+.alert-card.normal{
+    border-left:6px solid #3EB489;
+}
+
+/* ==================================================
+   LIVE ALERTS
+================================================== */
+
+.live-alerts{
+    background:#fff;
+    border-radius:15px;
+    padding:25px;
+    margin-bottom:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.live-alerts h2{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+.alert-item{
+    border-left:6px solid #EF4444;
+    background:#FFF5F5;
+    padding:18px;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+
+.alert-item.warning{
+    border-left-color:#F59E0B;
+    background:#FFF8EB;
+}
+
+.alert-item h3{
+    margin-bottom:6px;
+}
+
+.alert-item p{
+    color:#555;
+}
+
+.no-alert{
+    text-align:center;
+    color:#3EB489;
+    font-size:18px;
+    padding:30px;
+}
+
+/* ==================================================
+   ALERT TABLE
+================================================== */
+
+.alert-history{
+    background:#fff;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.alert-history h2{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#2563EB;
+    color:white;
+    padding:14px;
+}
+
+td{
+    padding:14px;
+    border-bottom:1px solid #eee;
+}
+
+.badge{
+    color:white;
+    padding:6px 12px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:600;
+}
+
+.badge.warning{
+    background:#F59E0B;
+}
+
+.badge.critical{
+    background:#EF4444;
+}
+
+/* ==================================================
+   RESPONSIVE
+================================================== */
+
+@media(max-width:900px){
+
+.alert-summary{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.alert-summary{
+
+    grid-template-columns:1fr;
+
+}
+
+table{
+
+    display:block;
+    overflow-x:auto;
+
+}
+
+}

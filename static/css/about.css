@@ -1,0 +1,463 @@
+/*==================================================
+ABOUT PAGE
+==================================================*/
+
+.about-container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+
+}
+
+/*==================================================
+HEADER
+==================================================*/
+
+.about-header{
+
+    background:linear-gradient(135deg,#3EB489,#6F9F9C);
+
+    color:#fff;
+
+    padding:50px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+
+}
+
+.about-header h1{
+
+    font-size:40px;
+
+    margin-bottom:12px;
+
+    font-weight:700;
+
+}
+
+.about-header p{
+
+    font-size:18px;
+
+    opacity:.95;
+
+}
+
+/*==================================================
+CARDS
+==================================================*/
+
+.about-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:30px;
+
+    box-shadow:0 8px 24px rgba(0,0,0,.08);
+
+}
+
+body.dark .about-card{
+
+    background:#1E293B;
+
+}
+
+.about-card h2{
+
+    color:#183153;
+
+    margin-bottom:20px;
+
+    font-size:28px;
+
+}
+
+body.dark .about-card h2{
+
+    color:#fff;
+
+}
+
+.about-paragraph{
+
+    line-height:1.9;
+
+    color:#555;
+
+    text-align:justify;
+
+    font-size:16px;
+
+}
+
+body.dark .about-paragraph{
+
+    color:#D1D5DB;
+
+}
+
+/*==================================================
+FEATURES
+==================================================*/
+
+.feature-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+}
+
+.feature-item{
+
+    text-align:center;
+
+    border:1px solid #E5E7EB;
+
+    border-radius:16px;
+
+    padding:30px 20px;
+
+    transition:.3s;
+
+}
+
+.feature-item:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.12);
+
+}
+
+body.dark .feature-item{
+
+    border-color:#334155;
+
+}
+
+.feature-item i{
+
+    width:55px;
+
+    height:55px;
+
+    color:#3EB489;
+
+    margin-bottom:15px;
+
+}
+
+.feature-item h3{
+
+    margin-bottom:12px;
+
+    color:#183153;
+
+}
+
+body.dark .feature-item h3{
+
+    color:#fff;
+
+}
+
+.feature-item p{
+
+    color:#666;
+
+    line-height:1.6;
+
+}
+
+body.dark .feature-item p{
+
+    color:#CBD5E1;
+
+}
+
+/*==================================================
+STATISTICS
+==================================================*/
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+}
+
+.stat-box{
+
+    background:#F8FAFC;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    padding:30px;
+
+    transition:.3s;
+
+}
+
+.stat-box:hover{
+
+    transform:translateY(-6px);
+
+}
+
+body.dark .stat-box{
+
+    background:#273549;
+
+}
+
+.stat-box h1{
+
+    font-size:46px;
+
+    color:#3EB489;
+
+    margin-bottom:10px;
+
+}
+
+.stat-box p{
+
+    color:#555;
+
+    font-weight:600;
+
+}
+
+body.dark .stat-box p{
+
+    color:#E2E8F0;
+
+}
+
+/*==================================================
+TECHNOLOGIES
+==================================================*/
+
+.tech-grid{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+}
+
+.tech-grid span{
+
+    background:#3EB489;
+
+    color:#fff;
+
+    padding:12px 22px;
+
+    border-radius:30px;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.tech-grid span:hover{
+
+    transform:scale(1.08);
+
+}
+
+/*==================================================
+TEAM TABLE
+==================================================*/
+
+.team-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+.team-table th{
+
+    background:#3EB489;
+
+    color:#fff;
+
+    padding:15px;
+
+    text-align:left;
+
+}
+
+.team-table td{
+
+    padding:16px;
+
+    border-bottom:1px solid #E5E7EB;
+
+}
+
+body.dark .team-table td{
+
+    border-color:#334155;
+
+}
+
+.team-table tr:hover{
+
+    background:#F8FAFC;
+
+}
+
+body.dark .team-table tr:hover{
+
+    background:#273549;
+
+}
+
+/*==================================================
+FOOTER
+==================================================*/
+
+.about-footer{
+
+    text-align:center;
+
+    padding:25px;
+
+    color:#777;
+
+    font-size:15px;
+
+}
+
+body.dark .about-footer{
+
+    color:#CBD5E1;
+
+}
+
+/*==================================================
+RESPONSIVE
+==================================================*/
+
+@media(max-width:768px){
+
+    .about-header{
+
+        padding:35px 20px;
+
+    }
+
+    .about-header h1{
+
+        font-size:30px;
+
+    }
+
+    .about-card{
+
+        padding:22px;
+
+    }
+
+    .stats-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .feature-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+/* =========================================================
+   DARK MODE - ABOUT PAGE
+   ========================================================= */
+
+body.dark-mode .about-container,
+body.dark-mode .about-section,
+body.dark-mode .about-content {
+    background: #111827;
+    color: #E5E7EB;
+}
+
+body.dark-mode .about-container h1,
+body.dark-mode .about-container h2,
+body.dark-mode .about-container h3,
+body.dark-mode .about-section h1,
+body.dark-mode .about-section h2,
+body.dark-mode .about-section h3 {
+    color: #F8FAFC;
+}
+
+body.dark-mode .about-container p,
+body.dark-mode .about-section p {
+    color: #CBD5E1;
+}
+
+
+/* Feature cards */
+
+body.dark-mode .about-card,
+body.dark-mode .feature-card,
+body.dark-mode .about-feature,
+body.dark-mode .feature-box {
+    background: #1F2937;
+    border-color: #374151;
+    color: #E5E7EB;
+}
+
+
+body.dark-mode .about-card h3,
+body.dark-mode .feature-card h3,
+body.dark-mode .about-feature h3,
+body.dark-mode .feature-box h3 {
+    color: #F8FAFC;
+}
+
+
+body.dark-mode .about-card p,
+body.dark-mode .feature-card p,
+body.dark-mode .about-feature p,
+body.dark-mode .feature-box p {
+    color: #CBD5E1;
+}
+
+
+/* Icons */
+
+body.dark-mode .about-card i,
+body.dark-mode .feature-card i,
+body.dark-mode .about-feature i,
+body.dark-mode .feature-box i {
+    color: #6F9F9C;
+}

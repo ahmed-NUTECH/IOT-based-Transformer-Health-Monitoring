@@ -1,0 +1,1902 @@
+[
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:44"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:44"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:45"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:45"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:46"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:46"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:47"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:47"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:48"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:48"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:49"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:49"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:50"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:50"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:51"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:51"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:52"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:52"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:53"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:53"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:54"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:54"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:55"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:55"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:56"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:56"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:57"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:57"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:58"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:58"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:59"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:47:59"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:48:00"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:48:00"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:37"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:37"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:37"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:38"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:38"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:39"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:39"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:39"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:40"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:40"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:41"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:41"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:41"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:42"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:42"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:43"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:43"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:43"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:44"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:44"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:44"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:45"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:45"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:46"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:46"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:46"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:47"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:47"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:48"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:48"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:48"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:49"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:49"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:50"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:50"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:50"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:51"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:51"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:52"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:52"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:52"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:53"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:53"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:54"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:54"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:54"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:55"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:55"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:56"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:56"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:56"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:57"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:57"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:58"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:58"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:58"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:59"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:50:59"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:51:00"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:51:00"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:51:00"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:51:01"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:51:01"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:51:02"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:51:02"
+    },
+    {
+        "transformer_type": "Distribution Transformer",
+        "temperature": 65,
+        "current": 60,
+        "rated_current": 5,
+        "voltage": 230,
+        "frequency": 50,
+        "power_factor": 0.96,
+        "smoke": "Safe",
+        "health": "Critical",
+        "reason": "Transformer temperature is above the normal operating range. Transformer overloaded (1200.0% loading).",
+        "risk_assessment": "High Risk",
+        "recommended_actions": [
+            "Reduce transformer loading immediately.",
+            "Inspect transformer condition.",
+            "Check insulation and cooling system."
+        ],
+        "time": "09-08-2026 15:51:02"
+    }
+]

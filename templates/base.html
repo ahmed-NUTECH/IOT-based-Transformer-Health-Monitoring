@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{% block title %}Transformer Monitoring{% endblock %}</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/alerts.css') }}">
+
+   <link rel="stylesheet"
+      href="{{ url_for('static', filename='css/report.css') }}">
+
+   <link rel="stylesheet"
+      href="{{ url_for('static', filename='css/about.css') }}">
+
+</head>
+
+<body>
+
+<!--==========================
+SIDEBAR
+===========================-->
+
+<aside class="sidebar" id="sidebar">
+
+    <div class="logo">
+        <h2>Transformer</h2>
+        <p>Monitoring</p>
+    </div>
+
+    <nav class="menu">
+
+        <a href="/">
+            <i data-lucide="house"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="/dashboard">
+            <i data-lucide="layout-dashboard"></i>
+            <span>Live Dashboard</span>
+        </a>
+
+        <a href="/health">
+            <i data-lucide="heart-pulse"></i>
+            <span>Health Status</span>
+        </a>
+
+        <a href="/alerts">
+            <i data-lucide="triangle-alert"></i>
+            <span>Alerts</span>
+        </a>
+
+        <a href="/control">
+            <i data-lucide="sliders-horizontal"></i>
+            <span>Control Panel</span>
+        </a>
+
+        <a href="/report">
+            <i data-lucide="file-text"></i>
+            <span>Report</span>
+        </a>
+
+        <a href="/about">
+            <i data-lucide="info"></i>
+            <span>About</span>
+        </a>
+
+    </nav>
+
+</aside>
+
+<!--==========================
+MAIN CONTENT
+===========================-->
+
+<div class="main-content" id="mainContent">
+
+    <!--======================
+    TOP BAR
+    =======================-->
+
+    <header class="topbar">
+
+        <div class="left-section">
+
+            <button class="menu-btn" id="menuBtn">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <h1 class="page-title">
+                {% block page_title %}
+                Home
+                {% endblock %}
+            </h1>
+
+        </div>
+
+        <div class="right-section">
+
+            <!-- Status -->
+            <div class="status-badge normal" id="navbarStatus">
+
+    <i data-lucide="shield-check" id="navbarStatusIcon"></i>
+
+    <span id="navbarStatusText">
+        Normal
+    </span>
+
+</div>
+
+            <!-- Notification -->
+            <div class="notification-container">
+
+                <button class="icon-btn" id="notificationBtn">
+                    <i data-lucide="bell"></i>
+                    <span id="notificationBadge" class="notification-badge">!</span>
+                </button>
+
+                <div class="notification-panel" id="notificationPanel">
+
+                    <h3>Notifications</h3>
+
+                    <div class="notification-list">
+                        <p>No new notifications</p>
+                    </div>
+
+                    <a href="/alerts" class="view-all-btn">
+                        View All Alerts
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- Dark Mode -->
+            <button class="icon-btn" id="darkModeBtn">
+                <i data-lucide="moon"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+    <!--======================
+    PAGE CONTENT
+    =======================-->
+
+    <main class="page-content">
+
+        {% block content %}
+        {% endblock %}
+
+    </main>
+
+</div>
+
+<!--======================
+SCRIPTS
+=======================-->
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="{{ url_for('static', filename='js/sidebar.js') }}"></script>
+
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+
+<script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+
+<script src="{{ url_for('static', filename='js/notifications.js') }}"></script>
+
+{% block scripts %}
+{% endblock %}
+
+<script>
+    lucide.createIcons();
+</script>
+
+</body>
+</html>

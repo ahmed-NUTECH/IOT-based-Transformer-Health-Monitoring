@@ -1,0 +1,401 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+Live Dashboard
+{% endblock %}
+
+
+
+{% block page_title %}
+Live Dashboard
+{% endblock %}
+
+
+
+
+{% block content %}
+
+<!-- ==========================================
+TRANSFORMER SPECIFICATIONS
+========================================== -->
+
+<section class="specification-section">
+
+
+<div class="section-title">
+
+<i data-lucide="file-cog"></i>
+
+<h2>
+Transformer Specifications
+</h2>
+
+</div>
+
+<div class="spec-grid">
+
+<div class="spec-card">
+
+<label>
+Transformer Type
+</label>
+
+
+<select id="transformerType">
+
+<option>Distribution Transformer</option>
+<option>Power Transformer</option>
+<option>Step-Up Transformer</option>
+<option>Step-Down Transformer</option>
+<option>Single Phase Transformer</option>
+<option>Three Phase Transformer</option>
+<option>Auto Transformer</option>
+<option>Isolation Transformer</option>
+<option>Current Transformer (CT)</option>
+<option>Potential Transformer (PT)</option>
+
+</select>
+
+</div>
+
+<div class="spec-card">
+
+<label>
+Transformer Rating
+</label>
+
+
+<select id="transformerRating">
+
+<option>25 kVA</option>
+<option>50 kVA</option>
+<option>100 kVA</option>
+<option>200 kVA</option>
+<option>500 kVA</option>
+<option>1 MVA</option>
+<option>5 MVA</option>
+<option>10 MVA</option>
+
+</select>
+
+</div>
+
+<div class="spec-card">
+
+<label>
+Primary Voltage
+</label>
+
+
+<select id="primaryVoltage">
+
+<option>230 V</option>
+<option>400 V</option>
+<option>11 kV</option>
+<option>33 kV</option>
+<option>66 kV</option>
+<option>132 kV</option>
+
+</select>
+
+</div>
+
+<div class="spec-card">
+
+<label>
+Secondary Voltage
+</label>
+
+
+<select id="secondaryVoltage">
+
+<option>5 V</option>
+<option>12 V</option>
+<option>24 V</option>
+<option>110 V</option>
+<option>230 V</option>
+<option>400 V</option>
+<option>11 kV</option>
+<option>33 kV</option>
+
+</select>
+
+</div>
+
+
+
+
+
+<div class="spec-card">
+
+<label>
+Rated Frequency
+</label>
+
+
+<select id="frequency">
+
+<option>50 Hz</option>
+<option>60 Hz</option>
+
+</select>
+
+</div>
+
+
+
+
+
+<div class="spec-card">
+
+<label>
+Rated Current
+</label>
+
+
+<select id="ratedCurrent">
+
+<option>1 A</option>
+<option>2 A</option>
+<option>5 A</option>
+<option>10 A</option>
+<option>20 A</option>
+<option>30 A</option>
+<option>50 A</option>
+<option>100 A</option>
+
+</select>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<!-- ==========================================
+LIVE SENSOR VALUES
+========================================== -->
+
+
+<section class="dashboard-section">
+
+
+<div class="section-title">
+
+<i data-lucide="activity"></i>
+
+<h2>
+Live Transformer Parameters
+</h2>
+
+</div>
+
+
+
+
+<div class="sensor-grid">
+
+
+
+<div class="sensor-card">
+
+<h3>
+Voltage
+</h3>
+
+<h1 id="voltageValue">
+--
+</h1>
+
+</div>
+
+
+
+
+<div class="sensor-card">
+
+<h3>
+Current
+</h3>
+
+<h1 id="currentValue">
+--
+</h1>
+
+</div>
+
+
+
+
+
+<div class="sensor-card">
+
+<h3>
+Temperature
+</h3>
+
+<h1 id="temperatureValue">
+--
+</h1>
+
+</div>
+
+
+
+
+
+<div class="sensor-card">
+
+<h3>
+Frequency
+</h3>
+
+<h1 id="frequencyValue">
+--
+</h1>
+
+</div>
+
+
+
+
+
+<div class="sensor-card">
+
+<h3>
+Power Factor
+</h3>
+
+<h1 id="powerFactor">
+--
+</h1>
+
+</div>
+
+
+
+
+
+<div class="sensor-card">
+
+<h3>
+Smoke Status
+</h3>
+
+<h1 id="smokeStatus">
+--
+</h1>
+
+<p id="smokeMessage"></p>
+
+</div>
+
+
+
+
+
+<div class="sensor-card">
+
+<h3>
+Transformer Health
+</h3>
+
+<h1 id="healthStatus">
+--
+</h1>
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- ==========================================
+LIVE GRAPHS
+========================================== -->
+
+
+<section class="dashboard-section">
+
+
+<div class="section-title">
+
+<i data-lucide="chart-line"></i>
+
+<h2>
+Live Trends
+</h2>
+
+</div>
+
+
+
+
+
+<div class="charts-container">
+
+
+
+<div class="chart-card">
+
+
+<h3>
+🌡 Temperature Trend
+</h3>
+
+
+<canvas id="temperatureChart"></canvas>
+
+
+</div>
+
+
+
+
+
+
+<div class="chart-card">
+
+
+<h3>
+⚡ Current Trend
+</h3>
+
+
+<canvas id="currentChart"></canvas>
+
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+{% endblock %}

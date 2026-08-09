@@ -1,0 +1,330 @@
+{% extends "base.html" %}
+
+{% block title %}
+Transformer Report
+{% endblock %}
+
+{% block page_title %}
+Transformer Report
+{% endblock %}
+
+{% block content %}
+
+<div class="report-container">
+
+    <div class="page-header">
+
+        <div>
+
+            <h1>Transformer Condition Report</h1>
+
+            <p>
+                Generated on
+                <span id="reportDate"></span>
+            </p>
+
+        </div>
+
+        <div class="report-buttons">
+
+            <button id="generateBtn" class="primary-btn">
+
+                Generate Report
+
+            </button>
+
+            <button id="downloadBtn" class="secondary-btn">
+
+                Download PDF
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- Summary -->
+
+    <section class="report-card">
+
+        <h2>System Summary</h2>
+
+        <div class="summary-grid">
+
+            <div class="summary-item">
+
+                <span>Transformer</span>
+
+                <h3>Distribution Transformer</h3>
+
+            </div>
+
+            <div class="summary-item">
+
+                <span>Rated Voltage</span>
+
+                <h3 id="ratedVoltage">230 V</h3>
+
+            </div>
+
+            <div class="summary-item">
+
+                <span>Rated Current</span>
+
+                <h3 id="ratedCurrent">5 A</h3>
+
+            </div>
+
+            <div class="summary-item">
+
+                <span>Overall Health</span>
+
+                <h3 id="overallHealth" class="normal">
+
+                    NORMAL
+
+                </h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Sensor Data -->
+
+    <section class="report-card">
+
+        <h2>Current Sensor Readings</h2>
+
+        <div class="sensor-grid">
+
+            <div class="sensor-box">
+
+                <p>Temperature</p>
+
+                <h3 id="rTemp">-- °C</h3>
+
+            </div>
+
+            <div class="sensor-box">
+
+                <p>Current</p>
+
+                <h3 id="rCurrent">-- A</h3>
+
+            </div>
+
+            <div class="sensor-box">
+
+                <p>Voltage</p>
+
+                <h3 id="rVoltage">-- V</h3>
+
+            </div>
+
+            <div class="sensor-box">
+
+                <p>Frequency</p>
+
+                <h3 id="rFrequency">-- Hz</h3>
+
+            </div>
+
+            <div class="sensor-box">
+
+                <p>Power Factor</p>
+
+                <h3 id="rPF">--</h3>
+
+            </div>
+
+            <div class="sensor-box">
+
+                <p>Smoke</p>
+
+                <h3 id="rSmoke">--</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Analysis -->
+
+    <section class="report-card">
+
+        <h2>Data Analysis</h2>
+
+        <table class="analysis-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Parameter</th>
+
+                    <th>Value</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>Maximum Temperature</td>
+
+                    <td id="maxTemp">--</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Average Temperature</td>
+
+                    <td id="avgTemp">--</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Maximum Current</td>
+
+                    <td id="maxCurrent">--</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Average Current</td>
+
+                    <td id="avgCurrent">--</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <!-- Health -->
+
+    <section class="report-card">
+
+        <h2>Health Assessment</h2>
+
+        <div class="assessment">
+
+            <h3 id="assessmentStatus">
+
+                NORMAL
+
+            </h3>
+
+            <p id="assessmentReason">
+
+                Transformer operating under safe conditions.
+
+            </p>
+
+            <div class="recommendation">
+
+                <strong>Recommendation</strong>
+
+                <p id="recommendationText">
+
+                    Continue normal monitoring.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- AI -->
+
+    <section class="report-card">
+
+        <h2>AI Prediction</h2>
+
+        <div class="prediction-box">
+
+            <h1 id="riskPercent">
+
+                5%
+
+            </h1>
+
+            <h3 id="riskLevel">
+
+                LOW RISK
+
+            </h3>
+
+            <p id="riskSuggestion">
+
+                No maintenance required.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Charts -->
+
+    <section class="report-card">
+
+        <h2>Historical Trends</h2>
+
+        <canvas id="temperatureChart"></canvas>
+
+        <br>
+
+        <canvas id="currentChart"></canvas>
+
+    </section>
+
+    <!-- Alerts -->
+
+    <section class="report-card">
+
+        <h2>Recent Alerts</h2>
+
+        <table class="analysis-table">
+
+            <thead>
+
+                <tr>
+
+                    <th>Time</th>
+
+                    <th>Alert</th>
+
+                    <th>Status</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody id="alertTable">
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script src="{{ url_for('static', filename='js/report.js') }}"></script>
+
+{% endblock %}

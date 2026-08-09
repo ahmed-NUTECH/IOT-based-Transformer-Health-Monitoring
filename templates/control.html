@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+{% block title %}
+Control Panel
+{% endblock %}
+
+{% block page_title %}
+Transformer Control Panel
+{% endblock %}
+
+{% block content %}
+
+<section class="control-panel">
+
+    <div class="control-grid">
+
+        <!-- Refresh Data -->
+        <div class="control-card">
+
+            <div class="control-icon">
+                <i data-lucide="refresh-cw"></i>
+            </div>
+
+            <h3>Refresh Data</h3>
+
+            <p>
+                Refresh all live transformer sensor readings.
+            </p>
+
+            <button id="refreshBtn" class="control-btn">
+                Refresh
+            </button>
+
+        </div>
+
+        <!-- Reset Alerts -->
+        <div class="control-card">
+
+            <div class="control-icon">
+                <i data-lucide="triangle-alert"></i>
+            </div>
+
+            <h3>Reset Alerts</h3>
+
+            <p>
+                Clear all active warning and critical alerts.
+            </p>
+
+            <button id="resetBtn" class="control-btn">
+                Reset
+            </button>
+
+        </div>
+
+        <!-- Export CSV -->
+        <div class="control-card">
+
+            <div class="control-icon">
+                <i data-lucide="download"></i>
+            </div>
+
+            <h3>Export CSV</h3>
+
+            <p>
+                Export current monitoring data into CSV format.
+            </p>
+
+            <button id="exportBtn" class="control-btn">
+                Export
+            </button>
+
+        </div>
+
+        <!-- Dark Mode -->
+        <div class="control-card">
+
+            <div class="control-icon">
+                <i data-lucide="moon"></i>
+            </div>
+
+            <h3>Dark Mode</h3>
+
+            <p>
+                Switch between Light and Dark theme.
+            </p>
+
+            <button id="themeBtn" class="control-btn">
+                OFF
+            </button>
+
+        </div>
+
+        <!-- Notification -->
+        <div class="control-card">
+
+            <div class="control-icon">
+                <i data-lucide="bell"></i>
+            </div>
+
+            <h3>Notification Sound</h3>
+
+            <p>
+                Enable or disable notification sound.
+            </p>
+
+            <button id="soundBtn" class="control-btn">
+                ON
+            </button>
+
+        </div>
+
+        <!-- Auto Refresh -->
+        <div class="control-card">
+
+            <div class="control-icon">
+                <i data-lucide="rotate-cw"></i>
+            </div>
+
+            <h3>Auto Refresh</h3>
+
+            <p>
+                Automatically refresh sensor readings.
+            </p>
+
+            <button id="autoBtn" class="control-btn">
+                ON
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}
+
+{% block scripts %}
+
+<script src="{{ url_for('static', filename='js/control.js') }}"></script>
+
+<script>
+    lucide.createIcons();
+</script>
+
+{% endblock %}

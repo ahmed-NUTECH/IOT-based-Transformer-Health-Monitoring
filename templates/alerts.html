@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+
+{% block title %}
+Alerts
+{% endblock %}
+
+{% block page_title %}
+Transformer Alerts
+{% endblock %}
+
+{% block content %}
+
+<!-- ==========================================
+ALERT SUMMARY
+========================================== -->
+
+<section class="alert-summary">
+
+    <div class="alert-card total">
+        <i data-lucide="bell-ring"></i>
+        <h3>Total Alerts</h3>
+        <h1 id="totalAlerts">0</h1>
+    </div>
+
+    <div class="alert-card critical">
+        <i data-lucide="triangle-alert"></i>
+        <h3>Critical</h3>
+        <h1 id="criticalAlerts">0</h1>
+    </div>
+
+    <div class="alert-card warning">
+        <i data-lucide="alert-circle"></i>
+        <h3>Warning</h3>
+        <h1 id="warningAlerts">0</h1>
+    </div>
+
+    <div class="alert-card normal">
+        <i data-lucide="shield-check"></i>
+        <h3>System Status</h3>
+        <h1 id="systemStatus">Normal</h1>
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+LIVE ALERTS
+========================================== -->
+
+<section class="live-alerts">
+
+    <h2>
+
+        <i data-lucide="siren"></i>
+
+        Active Alerts
+
+    </h2>
+
+    <div id="alertContainer">
+
+        <div class="no-alert">
+
+            <i data-lucide="badge-check"></i>
+
+            No active alerts.
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ==========================================
+ALERT HISTORY
+========================================== -->
+
+<section class="alert-history">
+
+    <h2>
+
+        <i data-lucide="history"></i>
+
+        Alert Log
+
+    </h2>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Sensor</th>
+
+                <th>Value</th>
+
+                <th>Severity</th>
+
+                <th>Description</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="alertTable">
+
+        </tbody>
+
+    </table>
+
+</section>
+
+{% endblock %}
+
+
+
+{% block scripts %}
+
+<script src="{{ url_for('static', filename='js/alerts.js') }}"></script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function(){
+
+    loadAlerts();
+
+    setInterval(loadAlerts,2000);
+
+});
+
+</script>
+
+{% endblock %}

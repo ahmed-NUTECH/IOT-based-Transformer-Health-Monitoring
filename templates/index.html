@@ -1,0 +1,163 @@
+{% extends "base.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block page_title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+
+    <div class="hero-left">
+
+        <span class="hero-badge">
+            ● SMART IoT MONITORING
+        </span>
+
+        <h1>
+            IoT-Based Distribution
+            <br>
+            Transformer
+            <br>
+            Condition Monitoring
+            <br>
+            System
+        </h1>
+
+        <p>
+
+            Monitor transformer voltage, current,
+            temperature and smoke in real time
+            using Raspberry Pi and IoT technology.
+
+            Improve reliability, reduce failures
+            and ensure safe operation through
+            continuous condition monitoring.
+
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="/dashboard" class="hero-btn primary">
+
+    <i data-lucide="activity"></i>
+
+    View Live Monitoring
+
+</a>
+
+        </div>
+
+    </div>
+
+
+    <!-- Transformer Illustration -->
+
+    <div class="hero-image">
+
+
+ <div class="hero-image">
+
+   <img
+class="transformer-img"
+src="/static/image/transformer/transformer.png"
+alt="Transformer">
+
+</div>
+
+</section>
+
+
+<section class="features">
+
+    <div class="feature-card">
+
+        <i data-lucide="thermometer"></i>
+
+        <h3>Temperature Monitoring</h3>
+
+        <p>
+            DS18B20 continuously measures transformer temperature.
+        </p>
+
+    </div>
+
+    <div class="feature-card">
+
+        <i data-lucide="zap"></i>
+
+        <h3>Current Monitoring</h3>
+
+        <p>
+            ACS712 measures transformer load current in real time.
+        </p>
+
+    </div>
+
+    <div class="feature-card">
+
+        <i data-lucide="flame"></i>
+
+        <h3>Smoke Detection</h3>
+
+        <p>
+            MQ-2 sensor detects smoke and possible fire hazards.
+        </p>
+
+    </div>
+
+    <div class="feature-card">
+
+        <i data-lucide="shield-check"></i>
+
+        <h3>Health Status</h3>
+
+        <p>
+            Displays Normal, Warning or Critical transformer condition.
+        </p>
+
+    </div>
+
+</section>
+
+
+
+<section class="team">
+
+    <h2>Project Team</h2>
+
+    <div class="team-grid">
+
+        <div class="member">
+
+            <i data-lucide="user"></i>
+
+            <h3>Muhammad Ahmed Khokar</h3>
+
+        </div>
+
+        <div class="member">
+
+            <i data-lucide="user"></i>
+
+            <h3>Muhiba Shakeel</h3>
+
+        </div>
+
+        <div class="member">
+
+            <i data-lucide="user"></i>
+
+            <h3>Kiran Batool</h3>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}

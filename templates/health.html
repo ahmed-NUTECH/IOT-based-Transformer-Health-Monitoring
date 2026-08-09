@@ -1,0 +1,220 @@
+{% extends "base.html" %}
+
+{% block title %}
+Health Status
+{% endblock %}
+
+{% block page_title %}
+Transformer Health Status
+{% endblock %}
+
+{% block content %}
+
+<!-- ==========================================
+HEALTH STATUS CARD
+========================================== -->
+
+<section class="health-status-section">
+
+    <div id="healthCard" class="health-card normal">
+
+        <div class="health-icon">
+            <i id="healthIcon" data-lucide="shield-check"></i>
+        </div>
+
+        <h1 id="mainHealthStatus">
+            NORMAL
+        </h1>
+
+        <p id="healthDescription">
+            Transformer is operating within safe limits.
+            All parameters are normal.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================================
+STATUS BOXES
+========================================== -->
+
+<section class="status-box-section">
+
+    <div id="normalBox" class="status-box active-normal">
+
+        <div class="dot green"></div>
+
+        <h3>NORMAL</h3>
+
+    </div>
+
+    <div id="warningBox" class="status-box">
+
+        <div class="dot orange"></div>
+
+        <h3>WARNING</h3>
+
+    </div>
+
+    <div id="criticalBox" class="status-box">
+
+        <div class="dot red"></div>
+
+        <h3>CRITICAL</h3>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================================
+ACTIVE CONDITIONS
+========================================== -->
+
+<section class="conditions-section">
+
+    <h2>
+
+        <i data-lucide="clipboard-list"></i>
+
+        Active Conditions
+
+    </h2>
+
+    <ul id="conditionList">
+
+        <li>Loading...</li>
+
+    </ul>
+
+</section>
+
+
+<!-- ==========================================
+HEALTH SCORE
+========================================== -->
+
+<section class="score-section">
+
+    <div class="score-card">
+
+        <div class="score-circle">
+
+            <span id="healthScore">
+
+                100%
+
+            </span>
+
+        </div>
+
+        <h2>
+
+            Transformer Health Score
+
+        </h2>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================================
+RECOMMENDATION
+========================================== -->
+
+<section class="recommend-section">
+
+    <h2>
+
+        <i data-lucide="badge-check"></i>
+
+        Recommended Action
+
+    </h2>
+
+    <p id="recommendation">
+
+        No maintenance required.
+
+    </p>
+
+</section>
+
+
+<!-- ==========================================
+RECENT HEALTH HISTORY
+========================================== -->
+
+<section class="history-section">
+
+    <h2>
+
+        <i data-lucide="history"></i>
+
+        Recent Health History
+
+    </h2>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Time</th>
+
+                <th>Status</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="historyTable">
+
+            <tr>
+
+                <td colspan="2">
+
+                    Loading...
+
+                </td>
+
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</section>
+
+{% endblock %}
+
+
+
+{% block scripts %}
+
+<!-- Health JavaScript -->
+<script src="{{ url_for('static', filename='js/health.js') }}"></script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    console.log("Health Page Loaded");
+
+    // Load data immediately
+    loadHealthStatus();
+    loadHistory();
+
+    // Auto refresh
+    setInterval(loadHealthStatus, 2000);
+    setInterval(loadHistory, 5000);
+
+});
+
+</script>
+
+{% endblock %}
