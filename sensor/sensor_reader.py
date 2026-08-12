@@ -1,180 +1,304 @@
 # ==========================================================
 # IoT-Based Distribution Transformer
-# Sensor Reader - Simulation Mode
+# REAL SENSOR READER
 #
 # Raspberry Pi 4
-# DS18B20 + ACS712 + MQ-2
 #
-# CURRENTLY:
-# Hardware is not connected.
-# This file simulates sensor readings and automatically
-# updates Data/sensor.json.
+# DS18B20  -> Temperature
+# ADS1115 A1 -> MQ-2
+# ADS1115 A2 -> ACS712-5A
+# SH1106 OLED -> Display
 #
-# LATER:
-# Replace the simulated sensor functions with the actual
-# Raspberry Pi GPIO / ADC sensor code.
+# Output:
+# Data/sensor.json
 # ==========================================================
 
-import os
-import json
 import time
-import random
+import json
 from datetime import datetime
+from pathlib import Path
+
+from smbus2 import SMBus
+
+from luma.core.interface.serial import i2c
+from luma.oled.device import sh1106
+
+from PIL import Image, ImageDraw, ImageFont
 
 
 # ==========================================================
 # PROJECT PATH
 # ==========================================================
 
-BASE_DIR = os.path.dirname(
-    os.path.dirname(
-        os.path.abspath(__file__)
-    )
-)
+BASE_DIR = Path(__file__).resolve().parent.parent
 
-DATA_DIR = os.path.join(
-    BASE_DIR,
-    "Data"
-)
+DATA_DIR = BASE_DIR / "Data"
 
-SENSOR_FILE = os.path.join(
-    DATA_DIR,
-    "sensor.json"
-)
+SENSOR_FILE = DATA_DIR / "sensor.json"
+
+DATA_DIR.mkdir(exist_ok=True)
 
 
 # ==========================================================
-# CREATE DATA FOLDER
-# ==========================================================
-
-os.makedirs(
-    DATA_DIR,
-    exist_ok=True
-)
-
-
-# ==========================================================
-# TRANSFORMER SETTINGS
+# TRANSFORMER CONFIGURATION
 # ==========================================================
 
 TRANSFORMER_TYPE = "Distribution Transformer"
 
-RATED_CURRENT = 5
+RATED_CURRENT = 5.0
 
-VOLTAGE = 230
+# These are currently fixed/reference values.
+# We do NOT have voltage/frequency/power-factor sensors
+# in the hardware configuration you provided.
 
-FREQUENCY = 50
+VOLTAGE = 230.0
+
+FREQUENCY = 50.0
 
 POWER_FACTOR = 0.96
 
 
 # ==========================================================
-# SIMULATED DS18B20
+# I2C CONFIGURATION
+# ==========================================================
+
+OLED_ADDRESS = 0x3C
+
+ADS_ADDRESS = 0x48
+
+I2C_BUS = 1
+
+ADS_CHANNEL_SMOKE = 1
+
+ADS_CHANNEL_CURRENT = 2
+
+
+# ==========================================================
+# ACS712 CONFIGURATION
+# ==========================================================
+
+# ACS712-5A sensitivity:
+# approximately 185 mV/A
+
+ACS712_SENSITIVITY = 0.185
+
+ACS712_ZERO_CURRENT_VOLTAGE = 2.5
+
+
+# ==========================================================
+# ADS1115 SETUP
+# ==========================================================
+
+bus = SMBus(I2C_BUS)
+
+
+# ==========================================================
+# OLED SETUP
+# ==========================================================
+
+serial = i2c(
+    port=I2C_BUS,
+    address=OLED_ADDRESS
+)
+
+oled = sh1106(serial)
+
+font = ImageFont.load_default()
+
+
+def oled_display(lines):
+
+    image = Image.new(
+        "1",
+        oled.size
+    )
+
+    draw = ImageDraw.Draw(image)
+
+    y = 0
+
+    for line in lines:
+
+        draw.text(
+            (0, y),
+            str(line),
+            font=font,
+            fill=255
+        )
+
+        y += 12
+
+    oled.display(image)
+
+
+# ==========================================================
+# DS18B20 TEMPERATURE
 # ==========================================================
 
 def read_temperature():
 
-    """
-    Simulates DS18B20 temperature.
-
-    Later this function will read the
-    real DS18B20 sensor connected to Raspberry Pi.
-    """
-
-    temperature = random.uniform(
-        20,
-        65
+    sensors = list(
+        Path("/sys/bus/w1/devices").glob("28-*")
     )
+
+    if not sensors:
+
+        raise RuntimeError(
+            "DS18B20 sensor not found"
+        )
+
+    sensor_file = sensors[0] / "w1_slave"
+
+    data = sensor_file.read_text().splitlines()
+
+    if not data:
+
+        raise RuntimeError(
+            "DS18B20 returned no data"
+        )
+
+    if "YES" not in data[0]:
+
+        raise RuntimeError(
+            "DS18B20 CRC check failed"
+        )
+
+    if "t=" not in data[1]:
+
+        raise RuntimeError(
+            "Invalid DS18B20 temperature data"
+        )
+
+    temperature = int(
+        data[1].split("t=")[1]
+    ) / 1000.0
 
     return round(
         temperature,
-        1
-    )
-
-
-# ==========================================================
-# SIMULATED ACS712
-# ==========================================================
-
-def read_current():
-
-    """
-    Simulates ACS712 current.
-
-    Later this function will read ACS712
-    through an ADC such as ADS1115/MCP3008.
-    """
-
-    current = random.uniform(
-        1,
-        6
-    )
-
-    return round(
-        current,
         2
     )
 
 
 # ==========================================================
-# SIMULATED MQ-2
+# ADS1115
 # ==========================================================
 
-def read_smoke():
+def read_ads(channel):
 
-    """
-    Simulates MQ-2 smoke detection.
+    if channel not in [0, 1, 2, 3]:
 
-    Returns:
-        Safe
-        Smoke Detected
-    """
+        raise ValueError(
+            "ADS1115 channel must be 0-3"
+        )
 
-    # Mostly Safe during normal operation
+    config_reg = 0x01
 
-    random_value = random.random()
+    conversion_reg = 0x00
 
-    if random_value < 0.90:
+    mux = {
+        0: 0x4000,
+        1: 0x5000,
+        2: 0x6000,
+        3: 0x7000
+    }
 
-        return "Safe"
+    config = (
+        0x8000 |
+        mux[channel] |
+        0x0200 |
+        0x0100 |
+        0x00E0 |
+        0x0003
+    )
 
-    else:
+    bus.write_i2c_block_data(
+        ADS_ADDRESS,
+        config_reg,
+        [
+            (config >> 8) & 0xFF,
+            config & 0xFF
+        ]
+    )
+
+    time.sleep(0.01)
+
+    data = bus.read_i2c_block_data(
+        ADS_ADDRESS,
+        conversion_reg,
+        2
+    )
+
+    value = (
+        (data[0] << 8)
+        | data[1]
+    )
+
+    if value > 32767:
+
+        value -= 65536
+
+    voltage = (
+        value * 4.096
+    ) / 32768
+
+    return round(
+        voltage,
+        3
+    )
+
+
+# ==========================================================
+# MQ-2
+# ==========================================================
+
+def read_smoke_voltage():
+
+    return read_ads(
+        ADS_CHANNEL_SMOKE
+    )
+
+
+def smoke_status(smoke_voltage):
+
+    # For now we use the voltage as a simple
+    # threshold-based indicator.
+    #
+    # IMPORTANT:
+    # MQ-2 requires calibration for meaningful
+    # gas concentration measurements.
+
+    if smoke_voltage >= 2.5:
 
         return "Smoke Detected"
 
-
-# ==========================================================
-# VOLTAGE
-# ==========================================================
-
-def read_voltage():
-
-    """
-    Currently using the expected transformer voltage.
-
-    Later this can be replaced by an actual
-    voltage measurement system.
-    """
-
-    return VOLTAGE
+    return "Safe"
 
 
 # ==========================================================
-# FREQUENCY
+# ACS712 CURRENT
 # ==========================================================
 
-def read_frequency():
+def read_current():
 
-    return FREQUENCY
+    voltage = read_ads(
+        ADS_CHANNEL_CURRENT
+    )
 
+    current = (
+        voltage -
+        ACS712_ZERO_CURRENT_VOLTAGE
+    ) / ACS712_SENSITIVITY
 
-# ==========================================================
-# POWER FACTOR
-# ==========================================================
+    # Remove very small zero-current noise
 
-def read_power_factor():
+    if abs(current) < 0.05:
 
-    return POWER_FACTOR
+        current = 0.0
+
+    return round(
+        abs(current),
+        2
+    )
 
 
 # ==========================================================
@@ -185,16 +309,13 @@ def build_sensor_data():
 
     temperature = read_temperature()
 
+    smoke_voltage = read_smoke_voltage()
+
     current = read_current()
 
-    voltage = read_voltage()
-
-    frequency = read_frequency()
-
-    power_factor = read_power_factor()
-
-    smoke = read_smoke()
-
+    smoke = smoke_status(
+        smoke_voltage
+    )
 
     sensor_data = {
 
@@ -211,16 +332,19 @@ def build_sensor_data():
             RATED_CURRENT,
 
         "voltage":
-            voltage,
+            VOLTAGE,
 
         "frequency":
-            frequency,
+            FREQUENCY,
 
         "power_factor":
-            power_factor,
+            POWER_FACTOR,
 
         "smoke":
             smoke,
+
+        "smoke_voltage":
+            smoke_voltage,
 
         "time":
             datetime.now().strftime(
@@ -228,7 +352,6 @@ def build_sensor_data():
             )
 
     }
-
 
     return sensor_data
 
@@ -239,40 +362,28 @@ def build_sensor_data():
 
 def write_sensor_data(sensor_data):
 
-    try:
+    temporary_file = SENSOR_FILE.with_suffix(
+        ".tmp"
+    )
 
-        with open(
-            SENSOR_FILE,
-            "w"
-        ) as file:
+    with open(
+        temporary_file,
+        "w"
+    ) as file:
 
-            json.dump(
-                sensor_data,
-                file,
-                indent=4
-            )
-
-        print(
-            "Sensor data updated:"
+        json.dump(
+            sensor_data,
+            file,
+            indent=4
         )
 
-        print(
-            sensor_data
-        )
-
-    except Exception as error:
-
-        print(
-            "ERROR writing sensor.json:"
-        )
-
-        print(
-            error
-        )
+    temporary_file.replace(
+        SENSOR_FILE
+    )
 
 
 # ==========================================================
-# MAIN SENSOR LOOP
+# MAIN
 # ==========================================================
 
 def main():
@@ -284,15 +395,11 @@ def main():
     )
 
     print(
-        "SIMULATION MODE"
+        "REAL HARDWARE MODE"
     )
 
     print(
-        "Hardware is not connected."
-    )
-
-    print(
-        "Updating sensor.json automatically..."
+        "DS18B20 + ADS1115 + MQ-2 + ACS712"
     )
 
     print(
@@ -306,23 +413,87 @@ def main():
     print("=" * 60)
 
 
+    oled_display(
+        [
+            "Transformer",
+            "Monitor",
+            "",
+            "Starting..."
+        ]
+    )
+
+    time.sleep(2)
+
+
     while True:
 
         try:
 
             # ==========================================
-            # READ SENSORS
+            # READ REAL SENSORS
             # ==========================================
 
             sensor_data = build_sensor_data()
 
 
             # ==========================================
-            # WRITE DATA
+            # SAVE JSON
             # ==========================================
 
             write_sensor_data(
                 sensor_data
+            )
+
+
+            # ==========================================
+            # OLED
+            # ==========================================
+
+            oled_display(
+                [
+                    f"Temp: {sensor_data['temperature']} C",
+
+                    f"Curr: {sensor_data['current']} A",
+
+                    f"Smoke: {sensor_data['smoke']}",
+
+                    f"MQ2: {sensor_data['smoke_voltage']} V"
+                ]
+            )
+
+
+            # ==========================================
+            # TERMINAL
+            # ==========================================
+
+            print("----------------------------------------")
+
+            print(
+                "Temperature:",
+                sensor_data["temperature"],
+                "C"
+            )
+
+            print(
+                "Current:",
+                sensor_data["current"],
+                "A"
+            )
+
+            print(
+                "MQ-2:",
+                sensor_data["smoke_voltage"],
+                "V"
+            )
+
+            print(
+                "Smoke:",
+                sensor_data["smoke"]
+            )
+
+            print(
+                "JSON:",
+                SENSOR_FILE
             )
 
 
@@ -339,17 +510,31 @@ def main():
                 "\nSensor reader stopped."
             )
 
+            oled_display(
+                [
+                    "Transformer",
+                    "Monitor",
+                    "",
+                    "Stopped"
+                ]
+            )
+
             break
 
 
         except Exception as error:
 
             print(
-                "Sensor reader error:"
+                "SENSOR ERROR:",
+                error
             )
 
-            print(
-                error
+            oled_display(
+                [
+                    "Sensor Error",
+                    "",
+                    str(error)[:18]
+                ]
             )
 
             time.sleep(2)
